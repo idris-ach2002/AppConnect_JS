@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="./index.css" type="text/css">
+</head>
+<body>
+    
+    <form action="">
+        <div class="pseudo-container">
+            <label for="pseudo">Pseudo</label>
+            <input type="text" id="pseudo"/>
+            <span></span>
+        </div>
+
+        <div class="email-container">
+            <label for="email">Email</label>
+            <input type="text" id="email"/>
+            <span>Email incorrect</span>
+        </div>
+        
+        <div class="password-container">
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password"/>
+            <p id="progressBar"></p>
+            <span></span>
+        </div>
+
+        <div class="confirm-container">
+            <label for="confirm">Confirmer mot de passe</label>
+            <input type="password" id="confirm"/>
+            <span></span>
+        </div>
+
+        <input type="submit" value="valider">
+
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #007991, #78ffd6  80%, #30d8eb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    color: rgb(182, 182, 182);
+}
+
+form {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border-radius: 20px;
+    border: none;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+body::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #007991, #78ffd6  80%);
+    display: inline-block;
+    position: relative;
+    top:-250px;
+    right: 225px;
+}
+
+label ,span{
+    display: block;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background: azure;
+    border: solid 1px rgb(111, 255, 255);
+}
+
+input[type="submit"] {
+    width: 100px;
+    margin-left: 100px;
+    background: linear-gradient(to right, #007991, #78ffd6  80%);;
+    border: none;
+    color: rgb(52, 52, 52);
+}
+
+p {
+    width:300px;
+    height: 5px;
+    border-radius: 20px;
+    visibility: hidden;
+}
+
+.email-container > span {
+    visibility: hidden;
+}
+
+
+.error input{
+    color: red;
+    border: solid 2px rgb(255, 0, 0);
+    border-collapse: separate;
+}
+
+.error span {
+    color: red;
+    width: 300px;
+    text-align: justify;
+    opacity: 1;
+    visibility: visible;
+}
+
+.progressRed {
+    background-color: red;
+    width: 33%;
+    visibility: visible;
+}
+
+.progressBlue {
+    background: aqua;
+    width: 67%;
+    visibility: visible;
+}
+
+.progressGreen{
+    background: rgb(135, 236, 112);
+    width: 100%;
+    visibility: visible;
+}
+
+.enter {
+    transform: scale(1.2);
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: #3fa5b0;
+    text-shadow: 5px 3px 10px #16bab5 ;
+    background: linear-gradient(to left, #3fa5b0, #14b081, 30%);
+}
+
+
